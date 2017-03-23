@@ -319,14 +319,15 @@
 						<h2>À vous de jouer :<br>(25 minutes)</h2>
 						<ul><small>
 							<li>Ajouter 2 disques à votre VM (200Mo chacun minimum)</li>
-							<li>Partitionner le disque en 2 volumes</li>
-							<li>Formater la première partition en ext4</li>
-							<li>Monter la dans /mnt/tp_linux</li>
-							<li>Initialiser la seconde partition en tant que PV</li>
+							<li>(Partitionner et ) formater le premier disque en ext4</li>
+							<li>Monter le dans /mnt/tp_linux</li>
+							<li>Partitionner le second disque en 2 partitions de 100Mo</li>
+							<li>Initialiser la première partition en tant que PV</li>
 							<li>Créer un VG avec ce PV</li>
 							<li>Créer à partir de ce VG 2 LV de 100Mo qui seront nommés «toto» et «titi»</li>
 							<li>Formater ces deux nouveaux LV (en ext3 et xfs (ou autre))</li>
 							<li>Les monter respectivement dans /mnt/tp_linux/toto_ext3 et /mnt/tp_linux/titi_xfs</li>
+							<li>Avec la partition restante, celle du second disque, augmenter le LV de 100Mo</li>
 							<li>M'appeler pour me dire que c'est fait :)</li>
 						</small></ul>
 					</section>
